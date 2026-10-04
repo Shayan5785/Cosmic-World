@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Space Quiz</title>
+</head>
+
+<body>
+
+    <h1>🚀 Test Your Space Knowledge</h1>
+
+    <ul>
+        <li><a href="index.html">Universe</a></li>
+        <li><a href="planets.html">Explore the Planets</a></li>
+        <li><a href="quiz.html">Space Quiz</a></li>
+    </ul>
+
+    <p>
+        How much do you know about our universe?
+        Answer the questions below and see how well you understand space.
+    </p>
+
+    <form>
+
+        <h2>Question 1</h2>
+
+        <p>Which planet is known as the Red Planet?</p>
+
+        <input type="radio" id="earth" name="planet" value="earth">
+        <label for="earth">Earth</label>
+        <br>
+
+        <input type="radio" id="mars" name="planet" value="mars">
+        <label for="mars">Mars</label>
+        <br>
+
+        <input type="radio" id="venus" name="planet" value="venus">
+        <label for="venus">Venus</label>
+        <br>
+
+        <h2>Question 2</h2>
+
+        <p>Which object is at the center of our solar system?</p>
+
+        <select id="center" name="center">
+
+            <option value="earth">Earth</option>
+            <option value="moon">The Moon</option>
+            <option value="sun">The Sun</option>
+            <option value="mars">Mars</option>
+
+        </select>
+
+        <h2>Question 3</h2>
+
+        <p>Which of these can be found in space?</p>
+
+        <input type="checkbox" id="stars" name="objects" value="stars">
+        <label for="stars">Stars</label>
+
+        <br>
+
+        <input type="checkbox" id="galaxies" name="objects" value="galaxies">
+        <label for="galaxies">Galaxies</label>
+
+        <br>
+
+        <input type="checkbox" id="planets" name="objects" value="planets">
+        <label for="planets">Planets</label>
+
+        <br>
+
+        <input type="checkbox" id="oceans" name="objects" value="oceans">
+        <label for="oceans">Oceans</label>
+
+        <h2>Question 4</h2>
+
+        <label for="favorite">
+            Which planet would you like to visit?
+        </label>
+
+        <br><br>
+
+        <select id="favorite" name="favorite">
+
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptune">Neptune</option>
+
+        </select>
+
+        <h2>Question 5</h2>
+
+        <label for="reason">
+            What makes space interesting to you?
+        </label>
+
+        <br><br>
+
+        <textarea
+            id="reason"
+            name="reason"
+            rows="5"
+            cols="50"
+            placeholder="Write your answer here..."
+        ></textarea>
+
+        <br><br>
+
+        <input
+            type="checkbox"
+            id="ready"
+            name="ready"
+            value="yes"
+        >
+
+        <label for="ready">
+            I am ready to become a space explorer!
+        </label>
+
+        <br><br>
+
+        <input type="submit" value="Submit Quiz">
+
+    </form>
+
+    <br>
+
+    <p>
+        Want to learn more before taking the quiz?
+        <a href="planets.html">Explore the planets first.</a>
+    </p>
+
+</body>
+
+</html>
